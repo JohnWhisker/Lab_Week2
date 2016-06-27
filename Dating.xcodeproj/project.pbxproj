@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FE4C0D2BA1B91FD053BE8A4 /* Pods_DatingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87777B64D16518A3214D409 /* Pods_DatingUITests.framework */; };
 		61FC5AB31D2151E20027DC60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC5AB21D2151E20027DC60 /* AppDelegate.swift */; };
 		61FC5AB51D2151E20027DC60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC5AB41D2151E20027DC60 /* ViewController.swift */; };
 		61FC5AB81D2151E20027DC60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FC5AB61D2151E20027DC60 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		61FC5ABD1D2151E20027DC60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FC5ABB1D2151E20027DC60 /* LaunchScreen.storyboard */; };
 		61FC5AC81D2151E20027DC60 /* DatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC5AC71D2151E20027DC60 /* DatingTests.swift */; };
 		61FC5AD31D2151E20027DC60 /* DatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC5AD21D2151E20027DC60 /* DatingUITests.swift */; };
+		641A0CE0DCFB92F76D7CF910 /* Pods_DatingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4AE50A67F9B4D0A95237BE /* Pods_DatingTests.framework */; };
+		B3C56216869A0CE9A1B48481 /* Pods_Dating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED8260868758DFAE8C86201 /* Pods_Dating.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023238124BE700269F3C8A07 /* Pods-DatingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DatingTests/Pods-DatingTests.release.xcconfig"; sourceTree = "<group>"; };
+		0A41EFC21EF5D7A8DFEEBC23 /* Pods-DatingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DatingUITests/Pods-DatingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D294DF184DFC86770F1B8B1 /* Pods-DatingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DatingUITests/Pods-DatingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		61FC5AAF1D2151E20027DC60 /* Dating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FC5AB21D2151E20027DC60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61FC5AB41D2151E20027DC60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		61FC5ACE1D2151E20027DC60 /* DatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FC5AD21D2151E20027DC60 /* DatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingUITests.swift; sourceTree = "<group>"; };
 		61FC5AD41D2151E20027DC60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EDF33F9AA3BE5E1CEF85F4 /* Pods-Dating.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dating.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dating/Pods-Dating.release.xcconfig"; sourceTree = "<group>"; };
+		C87777B64D16518A3214D409 /* Pods_DatingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98556C83C846C82E40067B5 /* Pods-DatingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DatingTests/Pods-DatingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF4AE50A67F9B4D0A95237BE /* Pods_DatingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED8260868758DFAE8C86201 /* Pods_Dating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dating.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDC8AFD235DDCC5BAAE9072 /* Pods-Dating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dating.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dating/Pods-Dating.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C56216869A0CE9A1B48481 /* Pods_Dating.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641A0CE0DCFB92F76D7CF910 /* Pods_DatingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE4C0D2BA1B91FD053BE8A4 /* Pods_DatingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30E2F9655D3B46A7A48B6059 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC8AFD235DDCC5BAAE9072 /* Pods-Dating.debug.xcconfig */,
+				81EDF33F9AA3BE5E1CEF85F4 /* Pods-Dating.release.xcconfig */,
+				C98556C83C846C82E40067B5 /* Pods-DatingTests.debug.xcconfig */,
+				023238124BE700269F3C8A07 /* Pods-DatingTests.release.xcconfig */,
+				0A41EFC21EF5D7A8DFEEBC23 /* Pods-DatingUITests.debug.xcconfig */,
+				5D294DF184DFC86770F1B8B1 /* Pods-DatingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		61FC5AA61D2151E20027DC60 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				61FC5AC61D2151E20027DC60 /* DatingTests */,
 				61FC5AD11D2151E20027DC60 /* DatingUITests */,
 				61FC5AB01D2151E20027DC60 /* Products */,
+				30E2F9655D3B46A7A48B6059 /* Pods */,
+				BD68D25CD16D4ED71E4CD643 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = DatingUITests;
 			sourceTree = "<group>";
 		};
+		BD68D25CD16D4ED71E4CD643 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EED8260868758DFAE8C86201 /* Pods_Dating.framework */,
+				CF4AE50A67F9B4D0A95237BE /* Pods_DatingTests.framework */,
+				C87777B64D16518A3214D409 /* Pods_DatingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61FC5AD71D2151E20027DC60 /* Build configuration list for PBXNativeTarget "Dating" */;
 			buildPhases = (
+				C2C91AF15C19A6F3474492F2 /* [CP] Check Pods Manifest.lock */,
 				61FC5AAB1D2151E20027DC60 /* Sources */,
 				61FC5AAC1D2151E20027DC60 /* Frameworks */,
 				61FC5AAD1D2151E20027DC60 /* Resources */,
+				AF5F5D4D06CE73E2EF91E4C7 /* [CP] Embed Pods Frameworks */,
+				FB08859A6EFE0BDF52DCC7D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61FC5ADA1D2151E20027DC60 /* Build configuration list for PBXNativeTarget "DatingTests" */;
 			buildPhases = (
+				F4DDE6FFDCF19724817B59B9 /* [CP] Check Pods Manifest.lock */,
 				61FC5ABF1D2151E20027DC60 /* Sources */,
 				61FC5AC01D2151E20027DC60 /* Frameworks */,
 				61FC5AC11D2151E20027DC60 /* Resources */,
+				60186CDC90E72F23FB4A32E1 /* [CP] Embed Pods Frameworks */,
+				0D7EC097C2F2D9BFA7B51B6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61FC5ADD1D2151E20027DC60 /* Build configuration list for PBXNativeTarget "DatingUITests" */;
 			buildPhases = (
+				36D0DC0FC805A36FF1EF30AB /* [CP] Check Pods Manifest.lock */,
 				61FC5ACA1D2151E20027DC60 /* Sources */,
 				61FC5ACB1D2151E20027DC60 /* Frameworks */,
 				61FC5ACC1D2151E20027DC60 /* Resources */,
+				BC60E35390609D135237C703 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D7EC097C2F2D9BFA7B51B6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DatingTests/Pods-DatingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36D0DC0FC805A36FF1EF30AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60186CDC90E72F23FB4A32E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DatingTests/Pods-DatingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF5F5D4D06CE73E2EF91E4C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dating/Pods-Dating-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC60E35390609D135237C703 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DatingUITests/Pods-DatingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2C91AF15C19A6F3474492F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4DDE6FFDCF19724817B59B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB08859A6EFE0BDF52DCC7D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dating/Pods-Dating-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61FC5AAB1D2151E20027DC60 /* Sources */ = {
@@ -397,6 +568,7 @@
 		};
 		61FC5AD81D2151E20027DC60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDC8AFD235DDCC5BAAE9072 /* Pods-Dating.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Dating/Info.plist;
@@ -408,6 +580,7 @@
 		};
 		61FC5AD91D2151E20027DC60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81EDF33F9AA3BE5E1CEF85F4 /* Pods-Dating.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Dating/Info.plist;
@@ -419,6 +592,7 @@
 		};
 		61FC5ADB1D2151E20027DC60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98556C83C846C82E40067B5 /* Pods-DatingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DatingTests/Info.plist;
@@ -431,6 +605,7 @@
 		};
 		61FC5ADC1D2151E20027DC60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 023238124BE700269F3C8A07 /* Pods-DatingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DatingTests/Info.plist;
@@ -443,6 +618,7 @@
 		};
 		61FC5ADE1D2151E20027DC60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A41EFC21EF5D7A8DFEEBC23 /* Pods-DatingUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DatingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +630,7 @@
 		};
 		61FC5ADF1D2151E20027DC60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D294DF184DFC86770F1B8B1 /* Pods-DatingUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DatingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +659,7 @@
 				61FC5AD91D2151E20027DC60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61FC5ADA1D2151E20027DC60 /* Build configuration list for PBXNativeTarget "DatingTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +668,7 @@
 				61FC5ADC1D2151E20027DC60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61FC5ADD1D2151E20027DC60 /* Build configuration list for PBXNativeTarget "DatingUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +677,7 @@
 				61FC5ADF1D2151E20027DC60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

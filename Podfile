@@ -7,6 +7,8 @@ target 'Dating' do
 
   # Pods for Dating
   pod 'Alamofire' , '~> 3.4' 
+  pod 'AlamofireImage', '~> 2.0'
+
   target 'DatingTests' do
     inherit! :search_paths
     # Pods for testing
